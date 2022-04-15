@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;  
+}
+p{
+    font-family: cursive;
+    line-height: 2;
+    color: rgb(53, 53, 56);
+}
+
+.main{
+    text-align: center;
+}
+
+hr{
+    border: dotted;
+    border-bottom: none;
+    width: 4%;
+    margin: auto;
+    margin-bottom: 38px;
+    color: #8f9b9b;
+}
+
+/* Navigation bar */
+
+.navbar{
+    /* border: 2px solid red; */
+    display:flex;
+    padding-top: 50px;
+    padding-left: 50px;
+    
+}
+.navbar li{
+    font-size: 120%;
+    font-family: cursive;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+.navbar li a{
+    text-decoration: none;
+    color:#397b7b;
+}
+
+.navbar li a:hover{
+    color: black;
+    transition: ease 2s;
+}
+
+/* Top container */
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+}
+h2{
+    font-size: .5 rem;
+    font-family: cursive;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3{
+    font-family: cursive;
+    color: #11999E;
+}
+
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    height: 750px;
+    /* padding-top: 100px; */
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 110px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.mountain{
+    position: absolute;
+    bottom: 0px;
+    /* margin-top: 120px; */
+}
+
+
+/* Middle Container */
+
+.middle-container{
+    background-color: ;
+}
+
+.profile{
+    margin: 38px auto 38px auto;
+
+}
+
+.profile-image{
+    width: 10%;
+}
+
+.profile-text{
+    width: 20%;
+    margin: 10px auto 0px;
+    
+}
+
+.skill{
+    margin: 38 auto 38 auto;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 38px auto 80px auto;
+    text-align: left;
+   
+}
+
+.skill-image-1{
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-image-2{
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact{
+    margin: 38px auto 38px auto;
+    line-height: 2;
+
+}
+
+.contact a{
+    text-decoration: none;
+    font-family: cursive;
+    
+}
+
+.linkedin img{
+    margin-top:20px; 
+    width: 2%;
+    cursor: pointer;
+}
+
+.twitter img{
+    width: 2%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+/* Bottom Container */
+
+.bottom-container{
+    background-color: #66BFBF;
+    
+    padding: 40px 0px 20px;
+    height: 100px;
+    width: 100%;
+}
+
+.bottom{
+    /* margin: 1000px; */
+}
+
+
+
+
