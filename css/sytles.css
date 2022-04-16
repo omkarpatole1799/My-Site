@@ -117,6 +117,8 @@ hr{
 #skill{
     background-color: rgb(223, 223, 226);
     margin: 19px auto 19px auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .skill-row-1{
