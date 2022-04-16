@@ -68,7 +68,7 @@ h3{
 
 .top-container{
     background-color: #E4F9F5;
-    position: relative;
+    position: static;
     height: 750px;
     /* padding-top: 100px; */
 }
@@ -117,6 +117,7 @@ h3{
 
 .skill{
     margin: 38 auto 38 auto;
+    background-color: rgb(223, 223, 226);
 }
 
 .skill-row{
