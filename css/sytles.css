@@ -3,6 +3,8 @@
     padding: 0px;  
 }
 
+/* For Html Tags */
+
 html{
     scroll-behavior: smooth;
 }
@@ -13,8 +15,22 @@ p{
     color: rgb(53, 53, 56);
 }
 
-.main{
-    text-align: center;
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+}
+
+h2{
+    font-size: .5 rem;
+    font-family: cursive;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3{
+    font-family: cursive;
+    color: #11999E;
 }
 
 hr{
@@ -26,22 +42,25 @@ hr{
     color: #8f9b9b;
 }
 
+.main{
+    text-align: center;
+}
+
 /* Navigation bar */
 
 .navbar{
-    /* border: 2px solid red; */
     display:flex;
     padding-top: 50px;
     padding-left: 50px;
     
 }
+
 .navbar li{
     font-size: 120%;
     font-family: cursive;
     padding: 15px;
     text-decoration: none;
-    display: inline-block;
-    
+    display: inline-block;  
 }
 
 .navbar li a{
@@ -55,27 +74,11 @@ hr{
 }
 
 /* Top container */
-h1{
-    font-family: 'Sacramento', cursive;
-    font-size: 5.625rem;
-    color: #66BFBF;
-}
-h2{
-    font-size: .5 rem;
-    font-family: cursive;
-    color: #66BFBF;
-    font-weight: normal;
-}
-h3{
-    font-family: cursive;
-    color: #11999E;
-}
 
 .top-container{
     background-color: #E4F9F5;
     position: relative;
     height: 750px;
-    /* padding-top: 100px; */
 }
 
 .top-cloud{
@@ -94,8 +97,7 @@ h3{
     position: absolute;
     bottom: 0px;
     left: 50%;
-    transform: translate(-50%,0);E
-    /* margin-top: 120px; */
+    transform: translate(-50%,0);
 }
 
 
@@ -117,7 +119,6 @@ h3{
 .profile-text{
     width: 20%;
     margin: 10px auto 0px;
-    
 }
 
 #skill{
@@ -128,8 +129,7 @@ h3{
 .skill-row{
     width: 50%;
     margin: 38px auto 80px auto;
-    text-align: left;
-   
+    text-align: left; 
 }
 
 .skill-image-1{
@@ -147,13 +147,11 @@ h3{
 #contact{
     margin: 38px auto 38px auto;
     line-height: 2;
-
 }
 
 #contact a{
     text-decoration: none;
     font-family: cursive;
-    
 }
 
 .linkedin img{
@@ -168,19 +166,13 @@ h3{
     cursor: pointer;
 }
 
-
 /* Bottom Container */
 
 .bottom-container{
-    background-color: #66BFBF;
-    
+    background-color: #66BFBF;    
     padding: 40px 0px 20px;
     height: 100px;
     width: 100%;
-}
-
-.bottom{
-    /* margin: 1000px; */
 }
 
 
