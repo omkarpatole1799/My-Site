@@ -77,8 +77,8 @@ hr{
 .top-container{
     background-color: #E4F9F5;
     position: relative;
-    /* height: 750px; */
-    padding: 30px;
+    height: 750px;
+    /* padding: 30px; */
     margin-bottom: 18px;
 }
 
